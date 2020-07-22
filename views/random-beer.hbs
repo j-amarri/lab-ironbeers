@@ -1,0 +1,5 @@
+{{#each randomBeerFromApi}}
+  {{> beerpartial }}
+{{/each}}
+<p>{{ randomBeerFromApi.[0].food_pairing }}</p>
+<p>{{ randomBeerFromApi.[0].brewers_tips }}</p>
